@@ -1,0 +1,19 @@
+
+@import "reset.scss";
+:global {
+    .blue {
+        border: 2px solid blue 
+    }
+}
+.bg{
+    background: pink
+}
+
+.red{
+    composes:bg;
+    color: red;
+}
+.green{
+    color:green;
+}
+
